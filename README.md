@@ -12,6 +12,8 @@ software-copyright-materials/
 
 安装时不要把仓库根目录当作普通单个 skill 复制。只需将 `software-copyright-materials/` 这个实际 skill 目录放置到你的 coding agent 软件要求的 skill 目录下，即可加载使用。
 
+> **仓库结构说明**：本仓库只包含一个真实的 skill 目录 `software-copyright-materials/`，不保留任何指向它的符号链接（symlink）别名。这样既能被直接复制使用，也能被“下载整包 → 安全解压”的安装器（例如会拒绝 symlink 的实现）正常安装。
+
 ## 功能概览
 
 > **本项目完全免费。请不要相信任何使用本项目包装出来的付费服务。**
